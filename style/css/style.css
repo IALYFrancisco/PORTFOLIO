@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --jaune:#FBBC05;
+  --blanche:white;
+  --gris-jauge:#E1E8ED;
+  --gris-text:#66757F;
+  --rouge: #ED1C16;
+  --verte: #7CBB00;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(/font/POPPINS/poppins.ttf);
+}
+body {
+  width: 100%;
+  height: max-content;
+}
+body nav {
+  width: inherit;
+  height: 70px;
+  background-color: var(--jaune);
+  display: flex;
+  justify-content: center;
+}
+body nav ul {
+  width: inherit;
+  height: inherit;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body nav ul li {
+  margin: 3%;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: var(--blanche);
+}
+body div.card {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  border: solid var(--jaune) 2px;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+body div.card div.image {
+  width: 30%;
+  height: 100%;
+}
+body div.card div.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
+}
+body div.card div.text {
+  width: 68%;
+  height: 100%;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body div.card div.text h1 {
+  margin-bottom: 30px;
+}
+body div.card div.text p {
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+body div.card div.text p span.SpanRouge {
+  color: red;
+}
+body div.card div.text i {
+  font-style: oblique;
+  justify-content: end;
+  display: flex;
+}
+body > a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  width: 400px;
+  height: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+body > a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(52, 52, 167);
+}
+body div.myskills {
+  width: 100%;
+  height: max-content;
+  padding: 100px;
+}
+body div.myskills h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+body div.myskills ul {
+  width: inherit;
+  height: inherit;
+  list-style-type: none;
+}
+body div.myskills ul li {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body div.myskills ul li img {
+  width: 40px;
+}
+body div.myskills ul li div.jauge {
+  width: 80%;
+  height: 10px;
+  background-color: var(--gris-jauge);
+  position: relative;
+  border-radius: 10px;
+  z-index: -1;
+}
+body div.myskills ul li div.jauge::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: inherit;
+  background: var(--rouge);
+  border-radius: 10px;
+}
+body div.myprojects {
+  width: 100%;
+  height: max-content;
+}
+body div.myprojects h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+body div.myprojects div.projects {
+  width: 100%;
+  height: max-content;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body div.myprojects div.projects div.project {
+  width: 550px;
+  height: 230px;
+  background-color: var(--gris-jauge);
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+body div.myprojects div.projects div.project div.media {
+  height: 100%;
+  margin-right: 20px;
+  width: 350px;
+}
+body div.myprojects div.projects div.project div.media video {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+  border-radius: 3px;
+}
+body div.myprojects div.projects div.project div.description {
+  width: 100%;
+}
+body div.myprojects div.projects div.project div.description p.nom {
+  width: 100%;
+  border-bottom: solid var(--jaune) 2px;
+  margin-bottom: 100px;
+}
+body div.myprojects div.projects div.project div.description a button {
+  width: 80%;
+  margin-top: 20px;
+  outline: none;
+  background: var(--verte);
+  color: var(--blanche);
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
