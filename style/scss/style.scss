@@ -138,7 +138,222 @@ body {
             height: inherit;
             list-style-type: none;
 
-            li {
+            li:nth-child(1) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 300px;
+                    height: inherit;
+                    background: var(--jaune);
+                    border-radius: 10px;
+                }
+
+            }
+
+        
+            li:nth-child(2) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 180px;
+                    height: inherit;
+                    background: var(--rouge);
+                    border-radius: 10px;
+                }
+
+            }
+
+            li:nth-child(3) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 550px;
+                    height: inherit;
+                    background: green;
+                    border-radius: 10px;
+                }
+
+            }
+
+
+            li:nth-child(4) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 700px;
+                    height: inherit;
+                    background: green;
+                    border-radius: 10px;
+                }
+
+            }
+
+
+            li:nth-child(5) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 340px;
+                    height: inherit;
+                    background: var(--jaune);
+                    border-radius: 10px;
+                }
+
+            }
+
+
+            li:nth-child(6) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 450px;
+                    height: inherit;
+                    background: var(--jaune);
+                    border-radius: 10px;
+                }
+
+            }
+
+
+            li:nth-child(7) {
                 width: inherit;
                 height: inherit;
                 display: flex;
@@ -172,6 +387,118 @@ body {
                 }
 
             }
+
+
+            li:nth-child(8) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 120px;
+                    height: inherit;
+                    background: var(--rouge);
+                    border-radius: 10px;
+                }
+
+            }
+
+
+            li:nth-child(9) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 300px;
+                    height: inherit;
+                    background: var(--rouge);
+                    border-radius: 10px;
+                }
+
+            }
+
+
+            li:nth-child(10) {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 40px;
+                }
+
+                div.jauge {
+                    width: 80%;
+                    height: 10px;
+                    background-color: var(--gris-jauge);
+                    position: relative;
+                    border-radius: 10px;
+                    z-index: -1;                   
+                }
+
+                div.jauge::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 300px;
+                    height: inherit;
+                    background: var(--rouge);
+                    border-radius: 10px;
+                }
+
+            }
+
+
+
+
         }
     }
 
@@ -220,7 +547,23 @@ body {
                     p.nom {
                         width: 100%;
                         border-bottom: solid var(--jaune) 2px;
-                        margin-bottom: 100px;
+                        margin-bottom: 70px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    a img {
+                        transition: 0.2s;
+                    }
+
+                    a img:hover{
+                        transition: 0.2s;
+                        transform: scale(1.2);
                     }
 
                     a {
